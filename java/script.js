@@ -1,6 +1,5 @@
-$(document).ready(function() {
-	console.log('test')
-	('li').click(function() {
-		(this).find('ul > li').slideToggle(200);
-	})
+$(document).ready(function(){
+    $("li").hover(function(){
+        $(this).find('li').stop().slideToggle(400);
+    });
 });

@@ -1,10 +1,16 @@
-ul {
+*{
+	border:1px dashed black;
+}
+#menu {
+	margin-top:; -1;
+}
+#menu ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	font-family: Verdana;
 }
- ul li {
+ #menu ul li {
 	float: left;
 	width: 120px;
 	height: 30px;
@@ -12,21 +18,29 @@ ul {
 	text-align: center;
 	background: rgb(0,35,70);
 }
-ul li a {
+#menu ul li a {
 	text-decoration: none;
 	color: white;
 }
-ul li li {
+#menu ul li li {
 	background: rgb(0,35,75);
 	display: none;
 	color: white;
 
 }
-ul li li:hover {
+#menu ul li li:hover {
 	background: blue;
 
 }
-#header h1 {
-	color: white
-	:rgb(0,35,70);
+#header {
+	color: white;
+	font-size: 22px;
+	font-family: impact;
+	background:rgb(0,35,70);
+	text-align: center;
+	border:5px solid black;
+	border-radius: 10px;
+}
+#header p {
+	margin-top: -20px;
 }
