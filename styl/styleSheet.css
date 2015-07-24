@@ -1,65 +1,32 @@
-* {
-	border: 1px dashed rgb(0,0,190)
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: Verdana;
 }
-#header {
-	border:4px solid rgb(0,35,60);
+ ul li {
+	float: left;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
 	text-align: center;
-	width: 400px;
+	background: rgb(0,35,70);
+}
+ul li a {
+	text-decoration: none;
 	color: white;
-	background-color: teal;
-	border-radius: 10px;
-	margin: left;
-	margin-top: -20px;
-	position:absolute;
+}
+ul li li {
+	background: rgb(0,35,75);
+	display: none;
+	color: white;
+
+}
+ul li li:hover {
+	background: blue;
+
 }
 #header h1 {
-	font-family:"Arial Black";
-}
-.navBar {
-	color: white;
-	border:4px solid black;
-	background-color: teal;
-	position: fixed;
-	height: 50px;
-	width: 100px;
-	display: inline;
-	text-align: center;
-	margin-left: 500px;
-	margin-top: -15px;
-	clear: both;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-}
-.navBar:nth-child(2) {
-	border:4px solid black;
-	background-color: teal;
-	position: fixed;
-	height: 50px;
-	width: 100px;
-	display: inline;
-	text-align: center;
-	margin-left: 610px;
-	margin-top: -15px;
-	clear: both;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-	}
-	.navBar:nth-child(3) {
-	border:4px solid black;
-	background-color: teal;
-	position: fixed;
-	height: 50px;
-	width: 100px;
-	display: inline;
-	text-align: center;
-	margin-left: 720px;
-	margin-top: -15px;
-	clear: both;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-	float: middle;
-}
-.navBar p {
-	text-align: center;
-	margin: 20px;
+	color: white
+	:rgb(0,35,70);
 }
