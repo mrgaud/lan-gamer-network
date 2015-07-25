@@ -1,32 +1,50 @@
-*{
-	border:1px dashed black;
+body {
+	background-image: url(http://www.access4.eu/_media/australia_hg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+body img {
+	height: 100%;
+	width: 100%;
 }
 #menu {
-	margin-top:; -1;
+	position: fixed;
+	right: 50%;
+	top: -1px;
+	border-radius: 5px;
+	border:2px solid black;
+	float:right;
+	opacity: .7;
+	clear: both;
 }
 #menu ul {
+	float: right;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	font-family: Verdana;
 }
  #menu ul li {
-	float: left;
+	float: right;
 	width: 120px;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	background: rgb(0,35,70);
+	background: rgb(0,70,120);
 }
 #menu ul li a {
 	text-decoration: none;
 	color: white;
 }
 #menu ul li li {
-	background: rgb(0,35,75);
+	background: rgb(0,70,150);
 	display: none;
 	color: white;
-
+	border:1.5px solid black;
+}
+#menu ul li:nth-child(4) {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 #menu ul li li:hover {
 	background: blue;
@@ -36,11 +54,55 @@
 	color: white;
 	font-size: 22px;
 	font-family: impact;
-	background:rgb(0,35,70);
-	text-align: center;
-	border:5px solid black;
+	/*background:rgb(0,35,70);*/
+	text-align: left;
+	border:5px solid white;
 	border-radius: 10px;
+	width: 100em;
+
 }
 #header p {
-	margin-top: -20px;
+	position: relative;
+	left: 70px;
+}
+#header h1 {
+	position: relative;
+	left: 10px;
+	
+
+}
+#header img {
+	position: absolute;
+	left: 400px;
+	top: 40px;
+	height: 100px;
+	width: 100px;
+}
+#googleMap {
+	position: absolute;
+	top: 23%;
+	left: 2%;
+	border: 3px solid white;
+	border-radius: 5px;
+}
+#userPass {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	float: right;
+	text-align: right;
+	color: white;
+	width: 250px;
+	border-radius: 5px;
+}
+#userPass h4 {
+	font-size: 22px;
+	position: relative;
+	text-align: center;
+	top: 22px;
+	text-decoration:none ;
+}
+#userPass button {
+	position: relative;
+	text-align: center;
 }

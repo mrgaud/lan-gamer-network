@@ -10,10 +10,11 @@
 			<div id="header">
 				<h1>Lan Gamer Network!</h1>
 					<p>play the way you want to play</p>
+					<img src="C:\Users\MrGaud\Desktop\Lan Gamer Network\lan-gamer-network\logo\logo.png" />
 			</div>
 						<div id="menu">
 				<ul>
-					<li><a href="">news</a>
+					<li><a href="">host party</a>
 						<ul>
 							<li><a href="http://www.google.com">link1</a></li>
 							<li><a href="">link2</a></li>
@@ -29,11 +30,34 @@
 							<li><a href="">link4</a></li>
 						</ul>
 					</li>
-					<li><a href="">host a party</a></li>
-					<li><a href="">contact us</a>
-					</ul>
-					</li>
 				</ul>
 			</div>
+			<div id="gogMp">
+				<script src="http://maps.googleapis.com/maps/api/js"></script>
+				<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(37.7833,-122.4167),
+    zoom:7,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<div id="googleMap" style="width:500px;height:380px;"></div>
+
+	<div id="userPass">
+		<h4>login</h4>
+		<form>
+			Username:<input type="text" name="user"/>
+				</br>
+			Password:<input type="password" name="pass"/>
+				</br>
+			<input type="submit" value="button"/>
+			</form>
+
+	</div>
+				</div>
 			</body>
 	</html>
