@@ -3,3 +3,9 @@ $(document).ready(function(){
         $(this).find('li').stop().slideToggle(400);
     });
 });
+$(document).ready(function() {
+	$('.submit').click(function() {
+		window.location.href='http://www.google.com'
+	});
+});
+

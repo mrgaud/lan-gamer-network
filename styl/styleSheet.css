@@ -1,5 +1,5 @@
 body {
-	background-image: url(http://www.access4.eu/_media/australia_hg.jpg);
+	background-image: url(https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xft1/v/t1.0-9/11745492_1649838261919114_5135715774849559348_n.jpg?oh=26a77eebf470f9868da5afbad50c673c&oe=564C75CE);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -9,13 +9,14 @@ body img {
 }
 #menu {
 	position: fixed;
-	right: 50%;
+	right: 40%;
 	top: -1px;
 	border-radius: 5px;
 	border:2px solid black;
 	float:right;
 	opacity: .7;
 	clear: both;
+	
 }
 #menu ul {
 	float: right;
@@ -56,36 +57,34 @@ body img {
 	font-family: impact;
 	/*background:rgb(0,35,70);*/
 	text-align: left;
-	border:5px solid white;
-	border-radius: 10px;
-	width: 100em;
+	
 
 }
 #header p {
 	position: relative;
-	left: 70px;
+	left: 40px;
 }
 #header h1 {
 	position: relative;
 	left: 10px;
-	
+	opacity: 	1;
 
 }
 #header img {
 	position: absolute;
 	left: 400px;
-	top: 40px;
+	top: 20px;
 	height: 100px;
 	width: 100px;
 }
 #googleMap {
-	position: absolute;
-	top: 23%;
+	position: relative	;
+	top: 25%;
 	left: 2%;
 	border: 3px solid white;
 	border-radius: 5px;
 }
-#userPass {
+#userpass {
 	position: absolute;
 	top: -1px;
 	right: -1px;
@@ -95,14 +94,24 @@ body img {
 	width: 250px;
 	border-radius: 5px;
 }
-#userPass h4 {
+#userpass h4 {
 	font-size: 22px;
 	position: relative;
 	text-align: center;
 	top: 22px;
 	text-decoration:none ;
+	opacity: 	1;
 }
-#userPass button {
+#userpass button {
 	position: relative;
 	text-align: center;
+}
+#hdrBkrd {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(0,40,100,0.5);
+	width: 100%;
+	height: 170px;
+	opacity: 0.8;
 }

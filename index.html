@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html>
 			<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script type="text/javascript" src="java/script.js"></script>
-	<link type="text/css" rel="stylesheet" href="styl/stylesheet.css">	
+	<link type="text/css" rel="stylesheet" href="styl/stylesheet.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
 			</head>
 
 		<body>		
+		<div id="tinge"></div>
 			<div id="header">
+			<div id="hdrBkrd"></div>
 				<h1>Lan Gamer Network!</h1>
 					<p>play the way you want to play</p>
 					<img src="C:\Users\MrGaud\Desktop\Lan Gamer Network\lan-gamer-network\logo\logo.png" />
+
 			</div>
+		
+
 						<div id="menu">
 				<ul>
 					<li><a href="">host party</a>
 						<ul>
-							<li><a href="http://www.google.com">link1</a></li>
+							<li><a href="">link1</a></li>
 							<li><a href="">link2</a></li>
 							<li><a href="">link3</a></li>
 							<li><a href="">link4</a></li>
@@ -32,6 +37,19 @@
 					</li>
 				</ul>
 			</div>
+			<div id="userpass">
+				 <form method="post" action="index.html">
+        Username or Email:<input type="text" name="login" value="" placeholder="Username or Email"></p>
+        Password:<p><input type="password" name="password" value="" placeholder="Password"></p>
+        <p class="remember_me">
+          <label>
+            <input type="checkbox" name="remember_me" id="remember_me">
+            Remember me on this computer
+          </label>
+        </p>
+        <p class="submit"><input type="submit" name="commit" value="Login"></p>
+      </form>
+			</div>
 			<div id="gogMp">
 				<script src="http://maps.googleapis.com/maps/api/js"></script>
 				<script>
@@ -46,18 +64,9 @@ function initialize() {
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 <div id="googleMap" style="width:500px;height:380px;"></div>
-
-	<div id="userPass">
-		<h4>login</h4>
-		<form>
-			Username:<input type="text" name="user"/>
-				</br>
-			Password:<input type="password" name="pass"/>
-				</br>
-			<input type="submit" value="button"/>
-			</form>
-
-	</div>
 				</div>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="java/script.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 			</body>
 	</html>
