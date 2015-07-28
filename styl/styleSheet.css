@@ -2,10 +2,7 @@ body {
 	background-image: url(https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xft1/v/t1.0-9/11745492_1649838261919114_5135715774849559348_n.jpg?oh=26a77eebf470f9868da5afbad50c673c&oe=564C75CE);
 	background-size: 100%;
 	background-repeat: no-repeat;
-}
-body img {
-	height: 100%;
-	width: 100%;
+	background-color:rgb(0,30,90);
 }
 #menu {
 	position: fixed;
@@ -78,7 +75,7 @@ body img {
 	width: 100px;
 }
 #googleMap {
-	position: relative	;
+	position: absolute;
 	top: 25%;
 	left: 2%;
 	border: 3px solid white;
